@@ -20,7 +20,7 @@ Excessive, but this will make sure you have everything you need:
 ## Ubuntu 20.04 based distros
 If running Ubuntu 20.04 or other distros based on it you must install these.
 
-`sudo apt install libxxf86vm-dev libxmu-dev libxi-dev libgtk2.0-dev libwxgtk2.8-dev libwxgtk2.8-dbg`
+`sudo apt install libxxf86vm-dev libxmu-dev libxi-dev libgtk2.0-dev libwxgtk2.8-dev libwxgtk2.8-dbg libudev-dev libevdev-dev`
 
 The installer will also ask if you're running Ubuntu, if you are say yes.
 
