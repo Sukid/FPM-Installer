@@ -14,14 +14,15 @@ Currently tested on Ubuntu, but should work across *all* distributions given the
 # Dependencies needed (install these first!)
 
 ## Arch based distros
-TBD, gcc8 is no longer required.
+Excessive, but this will make sure you have everything you need:
+`sudo pacman -S cmake git qt5-base alsa-lib bluez-libs cairo enet gcc-libs gdk-pixbuf2 glib2 glibc gtk2 wxgtk-common wxgtk2 hidapi libevdev libgl libpng libpulse libsm libx11 libxi libxrandr libxxf86vm lzo mbedtls miniupnpc pango sfml zlib libavcodec.so libavformat.so libavutil.so libcurl.so libswscale.so libudev.so libusb-1.0.so`
 
 ## Ubuntu 20.04 based distros
-If running Ubuntu 20.04 or other distros based on it you must install this dep as well.
+If running Ubuntu 20.04 or other distros based on it you must install these.
 
-`sudo apt install libxxf86vm-dev libxmu-dev libxi-dev libgtk2.0-dev`
+`sudo apt install libxxf86vm-dev libxmu-dev libxi-dev libgtk2.0-dev libwxgtk2.8-dev libwxgtk2.8-dbg`
 
-You must also tell the installer you are running it as well. 
+The installer will also ask if you're running Ubuntu, if you are say yes.
 
 ## Other Deps
 
