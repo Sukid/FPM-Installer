@@ -14,13 +14,12 @@ Currently tested on Ubuntu, but should work across *all* distributions given the
 # Dependencies needed (install these first!)
 
 ## Arch based distros
-
-`sudo pacman -Sy gcc8 gcc8-libs`
+TBD, gcc8 is no longer required.
 
 ## Ubuntu 20.04 based distros
 If running Ubuntu 20.04 or other distros based on it you must install this dep as well.
 
-`sudo apt install libxxf86vm-dev libxmu-dev`
+`sudo apt install libxxf86vm-dev libxmu-dev libxi-dev libgtk2.0-dev`
 
 You must also tell the installer you are running it as well. 
 
